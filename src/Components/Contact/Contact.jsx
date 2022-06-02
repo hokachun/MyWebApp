@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 import emailjs from '@emailjs/browser'
 
-import { useRef, useEffect, useState } from 'react'
+import { useRef, useState } from 'react'
 
 const Contact = () => {
   const form = useRef();
