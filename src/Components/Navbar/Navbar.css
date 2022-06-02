@@ -1,0 +1,70 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--black);
+}
+
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.n-logo{
+    zoom: 15%;
+    border-radius: 90px;
+    border: 5px solid var(--black);
+    margin-left: 5px;
+}
+
+.n-motto{
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    color: var(--black);
+}
+
+.n-motto-text{
+    color: var(--black);
+    font-style: italic;
+}
+
+.n-motto-declarator{
+    margin-left: auto;
+    margin-right: 0%;
+    color: var(--gray);
+}
+
+.n-right{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.n-list{
+    flex: 17;
+    margin-left: 20rem;
+}
+
+.n-list > ul{
+    display: flex;
+    gap: 2rem;
+}
+
+/* .n-list > ul > li:hover{
+    cursor: pointer;
+    color: var(--orange)
+} */
+
+.n-link:hover{
+    cursor: pointer;
+    color: var(--gray);
+}
+
+.n-button{
+    flex: 1;
+}
