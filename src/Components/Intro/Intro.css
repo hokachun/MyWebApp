@@ -63,9 +63,13 @@
 @media screen and (max-width: 480px) {
     .intro{
       flex-direction: column;
-      zoom: 70%;
+      zoom: 65%;
     }
     .i-name{
-      zoom: 75%;
+      zoom: 80%;
     }
+    .i-icons{
+        gap: 3rem;
+    }
+
   }
