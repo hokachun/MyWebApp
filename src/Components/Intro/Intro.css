@@ -68,6 +68,10 @@
     .i-name{
       zoom: 80%;
     }
+    .i-name > div > span::after{
+        content: "\a";
+        white-space: pre;
+    }
     .i-icons{
         gap: 3rem;
     }
