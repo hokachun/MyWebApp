@@ -9,7 +9,7 @@ const Intro = () => {
             <div className="i-name">
                 <div><span>Hi! I am William.</span><span> Nice to meet you!</span></div>
                 <div><span>Bonjour! Je m’appelle William.</span><span>  C’est un plaisir de vous rencontrer!</span></div>
-                <div><span>I am currently a full-stack developer in a top-ranked investment bank. Now based in Hong Kong.</span></div>
+                <div><span>I am currently a graduate Analyst in a top-ranked investment bank. Now based in Hong Kong.</span></div>
             </div>
             {/* <button className="button i-button">Find me</button> */}
             <div className="i-icons">
